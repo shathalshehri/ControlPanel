@@ -171,7 +171,7 @@ h4,p{
     text-align: center;
 }
 ```
-### Conecting the control panel page with a database
+### 4. Conecting the control panel page with a database
 (in every .php file as long as it connect to the database)
 ```php
 //required variables to connect with the local database
@@ -185,7 +185,7 @@ $conn = mysqli_connect($servername, $username, $password,$db);
 
 
 ```
-### Write the values to the database so when you click Forward it will insert to the database the letter (F) and it will read the letter that have been inserted to the database and when you click Left it will insert and read to/from the databse (L) and so on... 
+### 5. Write the values to the database so when you click Forward it will insert to the database the letter (F) and it will read the letter that have been inserted to the database and when you click Left it will insert and read to/from the databse (L) and so on... 
 (index.php file)
 ```php
 //Forward
@@ -220,5 +220,6 @@ $conn = mysqli_connect($servername, $username, $password,$db);
 	} 
 .......and so on
 ``` 
-## The robot control panel interface <img width="1263" alt="Screen Shot 1444-01-16 at 12 15 30 AM" src="https://user-images.githubusercontent.com/108195428/184510923-be298f38-5eef-46ca-95aa-e29fd4802b02.png">
+## The robot control panel interface
+<img width="1263" alt="Screen Shot 1444-01-16 at 12 15 30 AM" src="https://user-images.githubusercontent.com/108195428/184510923-be298f38-5eef-46ca-95aa-e29fd4802b02.png">
 
