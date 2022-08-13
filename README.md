@@ -172,7 +172,7 @@ h4,p{
 }
 ```
 ### Conecting the control panel page with a database
-
+(in every .php file as long as it connect to the database)
 ```php
 //required variables to connect with the local database
 $servername = "localhost";
@@ -218,7 +218,7 @@ $conn = mysqli_connect($servername, $username, $password,$db);
 	}
 	$conn->close();
 	} 
-.......
+.......and so on
 ``` 
 ## The robot control panel interface <img width="1263" alt="Screen Shot 1444-01-16 at 12 15 30 AM" src="https://user-images.githubusercontent.com/108195428/184510923-be298f38-5eef-46ca-95aa-e29fd4802b02.png">
 
