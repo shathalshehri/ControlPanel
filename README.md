@@ -217,6 +217,5 @@ $conn = mysqli_connect($servername, $username, $password,$db);
 	} 
 .......
 ``` 
-## ![The robot control panel interface](<img width="1263" alt="Screen Shot 1444-01-16 at 12 15 30 AM" src="https://user-images.githubusercontent.com/108195428/184510923-be298f38-5eef-46ca-95aa-e29fd4802b02.png">
-)
+The robot control panel interface <img width="1263" alt="Screen Shot 1444-01-16 at 12 15 30 AM" src="https://user-images.githubusercontent.com/108195428/184510923-be298f38-5eef-46ca-95aa-e29fd4802b02.png">
 
