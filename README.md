@@ -2,7 +2,7 @@
 ## 1. Create local SQL Server database (I used MAMP)
 [Here is the link to download MAMP](https://www.mamp.info/en/windows/)
 ## 2. Create a table 
-
+(remote.sql file)
 ```sql
 
 CREATE TABLE `remote` (
@@ -15,6 +15,7 @@ CREATE TABLE `remote` (
 ```
 
 ## 3. Design an interface for the control panel using HTML/CSS to control the robot movements (Forward, Backward, Left, Right,Stop).
+(index.php file)
 ```html 
 <!DOCTYPE html>
 <meta charset="UTF-8">
@@ -74,6 +75,7 @@ CREATE TABLE `remote` (
 
 </html>
 ```
+(style.css file)
 ```css
 body {
     margin: 0;
@@ -184,6 +186,7 @@ $conn = mysqli_connect($servername, $username, $password,$db);
 
 ```
 ### Write the values to the database so when you click Forward it will insert to the database the letter (F) and it will read the letter that have been inserted to the database and when you click Left it will insert and read to/from the databse (L) and so on... 
+(index.php file)
 ```php
 //Forward
  	if (isset($_POST['forward'])) { 
