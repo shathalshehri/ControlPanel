@@ -1,7 +1,7 @@
 # Control Panel
-1. Create local SQL Server database (I used MAMP)
+## 1. Create local SQL Server database (I used MAMP)
 
-2. Create a table 
+## 2. Create a table 
 
 ```sql
 
@@ -14,7 +14,7 @@ CREATE TABLE `remote` (
 ) ;
 ```
 
-3. Design an interface for a control panel page using HTML/CSS to control the robot movements (Forward, Backward, Left, Right,Stop).
+## 3. Design an interface for a control panel page using HTML/CSS to control the robot movements (Forward, Backward, Left, Right,Stop).
 ```html 
 <!DOCTYPE html>
 <meta charset="UTF-8">
@@ -74,7 +74,7 @@ CREATE TABLE `remote` (
 
 </html>
 ```
-1.Conecting the control panel page with a database
+### 1.Conecting the control panel page with a database
 
 ```php
 //required variables to connect with the local database
@@ -88,7 +88,7 @@ $conn = mysqli_connect($servername, $username, $password,$db);
 
 
 ```
-2.write the values to the database so when you click Forward it will insert to the database the letter (F) and it will read the letter that have been inserted to the database and when you click Left it will insert and read to/from the databse (L) and so on... 
+### 2.write the values to the database so when you click Forward it will insert to the database the letter (F) and it will read the letter that have been inserted to the database and when you click Left it will insert and read to/from the databse (L) and so on... 
 ```php
 //Forward
  	if (isset($_POST['forward'])) { 
