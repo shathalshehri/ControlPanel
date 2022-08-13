@@ -1,6 +1,6 @@
 # Control Panel
 ## 1. Create local SQL Server database (I used MAMP)
-[Here is the link to download it:](https://www.mamp.info/en/windows/)
+[Here is the link to download it MAMP](https://www.mamp.info/en/windows/)
 ## 2. Create a table 
 
 ```sql
