@@ -14,7 +14,7 @@ CREATE TABLE `remote` (
 ) ;
 ```
 
-## 3. Design an interface for a control panel page using HTML/CSS to control the robot movements (Forward, Backward, Left, Right,Stop).
+## 3. Design an interface for the control panel using HTML/CSS to control the robot movements (Forward, Backward, Left, Right,Stop).
 ```html 
 <!DOCTYPE html>
 <meta charset="UTF-8">
@@ -74,7 +74,102 @@ CREATE TABLE `remote` (
 
 </html>
 ```
-### 1.Conecting the control panel page with a database
+```css
+body {
+    margin: 0;
+    padding: 0;
+      background-image: url("https://cdn.wallpapersafari.com/55/23/0maXBZ.jpg");
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+    animation: animate 10s infinite linear;
+    background-position: cover;
+  }
+p {
+    color: rgb(91, 158, 218);
+}
+h1{
+    color:rgb(91, 158, 218);
+}
+
+h4,p{
+    color: rgb(91, 158, 218);
+}
+/* To add animation for the background*/
+  @keyframes animate {
+
+    0% {
+        background-position: 0px 100px;
+    }
+
+    100% {
+        background-position: 0px 0px;
+    }
+}
+h4,p{
+    color: rgb(91, 158, 218);
+}
+  main{
+
+    color: rgb(93, 120, 209);
+    font-size: 33px;  
+    width: 100%;
+    max-width: 1920px;
+    min-width: 480px;
+    height: 200px;
+    margin-left: -8px;
+    text-align: center;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 100px 0 0;
+
+}
+
+.other_btn{
+    padding: 7px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position:inherit;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+
+
+}
+
+
+.stopbtn{
+    background-color: rgb(2, 2, 2);
+    padding: 7px 50px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 12px;
+    cursor: pointer;
+    position:inherit;
+    border-radius: 8px;
+    color: rgb(233, 233, 235);
+
+    
+}
+
+.container{
+    width: 100%;
+    max-width: 1920px;
+    min-width: 480px;
+    height: 200px;
+    margin-left: -8px;
+    overflow: hidden;
+    text-align: center;
+}
+```
+### Conecting the control panel page with a database
 
 ```php
 //required variables to connect with the local database
@@ -88,7 +183,7 @@ $conn = mysqli_connect($servername, $username, $password,$db);
 
 
 ```
-### 2.write the values to the database so when you click Forward it will insert to the database the letter (F) and it will read the letter that have been inserted to the database and when you click Left it will insert and read to/from the databse (L) and so on... 
+### write the values to the database so when you click Forward it will insert to the database the letter (F) and it will read the letter that have been inserted to the database and when you click Left it will insert and read to/from the databse (L) and so on... 
 ```php
 //Forward
  	if (isset($_POST['forward'])) { 
