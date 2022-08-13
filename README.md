@@ -221,5 +221,8 @@ $conn = mysqli_connect($servername, $username, $password,$db);
 .......and so on
 ``` 
 ## The robot control panel interface
+
+as you can see on the left side above it displays the Letter that represents the previous movement inserted into the database table which is the last movement we clicked on in the control panel
+
 <img width="1263" alt="Screen Shot 1444-01-16 at 12 15 30 AM" src="https://user-images.githubusercontent.com/108195428/184510923-be298f38-5eef-46ca-95aa-e29fd4802b02.png">
 
