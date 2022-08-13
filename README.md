@@ -183,7 +183,7 @@ $conn = mysqli_connect($servername, $username, $password,$db);
 
 
 ```
-### write the values to the database so when you click Forward it will insert to the database the letter (F) and it will read the letter that have been inserted to the database and when you click Left it will insert and read to/from the databse (L) and so on... 
+### Write the values to the database so when you click Forward it will insert to the database the letter (F) and it will read the letter that have been inserted to the database and when you click Left it will insert and read to/from the databse (L) and so on... 
 ```php
 //Forward
  	if (isset($_POST['forward'])) { 
