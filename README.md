@@ -1,4 +1,4 @@
-# Control Panel
+# Control Pane-SM-Training
 ## 1. Create local SQL Server database (I used MAMP)
 [Here is the link to download MAMP](https://www.mamp.info/en/windows/)
 ## 2. Create a table 
