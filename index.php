@@ -1,8 +1,8 @@
 <?php
 //required variables to connect with the local database
-$servername = "localhost";
-$username = "myUser";
-$password = "[Xna)ZK6Nnuahj_C";
+$servername = ***
+$username = "***
+$password = ***
 $db = "IOT";
 
 //server name, user name , password , database
