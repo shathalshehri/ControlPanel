@@ -178,7 +178,7 @@ h4,p{
 $servername = ***
 $username = ***
 $password = ***
-$db = "IOT";
+$db = ***
 
 //server name, user name , password , database
 $conn = mysqli_connect($servername, $username, $password,$db);
