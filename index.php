@@ -1,7 +1,7 @@
 <?php
 //required variables to connect with the local database
 $servername = ***
-$username = "***
+$username = ***
 $password = ***
 $db = "IOT";
 
